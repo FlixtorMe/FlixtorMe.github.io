@@ -1,0 +1,105 @@
+/*
+     Official Flixtor Website. You need to ask creators for permission.
+*/
+body {
+    color: #2b2a2a;
+    background-color: #ededed;
+}
+
+#content > div, #footer > div, #header > #menu > div, #header > #topHeader {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 10px;
+}
+
+#header {
+    background: url(../img/bg-flixtor.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#topHeader {
+    height: 250px;
+}
+
+#content {
+}
+
+#footer {
+    margin: 20px 0;
+}
+
+#downloadBox {
+    width: 400px;
+    background-color: #ededed;
+    margin-right: 20px;
+    margin-top: -30px;
+    height: 110px;
+    padding: 0 10px;
+}
+
+    #downloadBox a {
+        margin-right: 30px;
+    }
+
+        #downloadBox a:hover {
+            -webkit-filter: invert(100%);
+        }
+
+
+        #downloadBox a:last-child {
+            margin-right: 0px;
+        }
+
+#logo {
+    display: table-cell;
+    vertical-align: middle;
+    height: 250px;
+}
+
+    #logo h1 {
+        color: white;
+        font-size: 70px;
+    }
+
+    #logo p {
+        color: white;
+    }
+
+#menu {
+    background-color: rgba(0, 0, 0, 0.70);
+    height: 80px;
+}
+
+    #menu ul {
+        list-style-type: none;
+        height: 80px;
+        padding: 0px;
+    }
+
+        #menu ul li {
+            float: left;
+            white-space: normal;
+            margin-right: 40px;
+        }
+
+            #menu ul li a {
+                display: table-cell;
+                height: 80px;
+                vertical-align: middle;
+                color: white;
+                text-decoration: none;
+            }
+
+                #menu ul li a.on {
+                    border-bottom: 5px solid #ededed;
+                    line-height: 10px;
+                    padding-top: 5px;
+                }
+
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #c7c7c7;
+}
